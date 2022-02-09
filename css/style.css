@@ -1,0 +1,55 @@
+html, body{
+    font-family: Calibri;
+    font-size: 1rem;
+    line-height: 1.5;
+    word-wrap: break-word;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#site-header{
+    background-color: rgb(245, 245, 245);
+}
+
+.logo-image{
+    vertical-align: middle;
+    float: left;
+    padding-right:2em;
+    max-height: 80px;
+    width:auto;
+}
+
+#site-header-content{
+    display: block;
+    padding: 3em;
+    margin-left: auto;
+    margin-right:auto;
+    width: 740px;
+    position: relative;
+}
+
+#site-header-title{
+    text-decoration:none;
+    color:black;
+}
+
+#site-header-title:hover{
+    text-decoration:none;
+    color:rgb(63, 63, 63);
+}
+
+.section{
+    border-bottom-width: 1px;
+    border-bottom-style:solid;
+    border-bottom-color:rgb(245, 245, 245)
+}
+
+.section-content{
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 4.5em;
+    padding-top: 6em;
+    max-width: 740px;
+}
